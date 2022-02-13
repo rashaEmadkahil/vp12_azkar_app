@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class LaunchScreen extends StatefulWidget {
   const LaunchScreen({Key? key}) : super(key: key);
@@ -37,7 +36,7 @@ class _LaunchScreenState extends State<LaunchScreen> {
         ),
         child: Text(
           'Azkar App',
-          style: GoogleFonts.cairo(
+          style:TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 24
           )
